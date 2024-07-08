@@ -26,6 +26,13 @@ use App\Models\Book;
 
 
 //Route::get('/index', [HomeController::class, 'index']);
+Route::get('/index/{page?}', function ($page = 'view=other') {
+    if ($page == 'view=welcome') {
+        return view('welcome');
+    } else {
+        return view('index');
+    }
+});
 
 
 

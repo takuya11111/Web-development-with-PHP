@@ -65,7 +65,7 @@ Route::any('/', function () {
 */
 
 //2024-07-04 start
-/*
+
 Route::get('/examples', [ExampleController::class, 'index']);
 
 Route::get('/examplesmodel', [Example::class, 'index']);
@@ -73,7 +73,7 @@ Route::get('/examplesmodel', [Example::class, 'index']);
 Route::get('/books', [BookController::class, 'index']);
 
 Route::get('/booksmodel', [Book::class, 'index']);
-*/
+
 //2024-07-04 end
 
 //CURD----------------------------------------------------------
